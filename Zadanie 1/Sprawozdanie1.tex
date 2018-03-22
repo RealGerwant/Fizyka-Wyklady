@@ -1,0 +1,81 @@
+\documentclass[polish,polish,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{pslatex}
+\usepackage{pgfplots}
+\usepackage{circuitikz} 
+\usepackage{setspace}
+\usepackage{caption}
+\usepackage{amssymb}
+\usepackage{amsmath}
+%\usetikzlibrary{circuits.ee.IEC}
+\usepackage{anysize}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{float}
+\usepackage[polish]{babel}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=blue,
+	filecolor=magenta,      
+	urlcolor=cyan,
+}
+\urlstyle{same}
+
+\marginsize{2.5cm}{2.5cm}{2cm}{2cm}
+
+\title{}
+
+\author{}
+
+\begin{document}
+	
+	\begin{titlepage}
+			\vspace*{\fill}
+				    \begin{center}
+				    {\Large Fizyka dla informatyków \\[0.1cm]
+				    	Sprawozdanie z zadania w zespołach nr. 1\\[0.1cm]
+			    		prowadzący: dr. Gustaw Szawioła\\[0.7cm]}
+					{\huge Zależność drgań oscylatora harmonicznego z siłą wymuszającą od częstości $\omega$ siły wymuszjącej. - Eksperyment numeryczny}\\ [0.7cm]
+					{\large autorzy:}\\[0.1cm]
+					{\Large Mariusz Sałaj (136795), Rafał Wójcik (136831),Piotr Więtczak(132339),\\ [0.1cm]
+						 Robert Ciemny(136693), Kamil Basiukajc(136681)}\\[0.5cm]
+					\today
+				\end{center}
+			\vspace*{\fill}
+	\end{titlepage}
+	
+
+			\section{Cel zadania}
+		Celem tego zadania jest, kozrzystając z programu {\em Mathematica} dostępnego w chmurze, zbadanie na drodze ekseprymentu numerycznego zależności drgań oscylatora harmonicznego z siłą wymuszającą $\dfrac{d^{2}x(t)}{dt^{2}} + b \dfrac{dx}{dt} +
+		\omega_{0}^2 x(t) = sin(\omega t)$ od częsości $ \omega $ siły wymuszającej. Należy wykonać wykres zależności amplitudy drgań w funkcji częstości $ \omega $ i wyznaczyć tzw. częstość razonansową, dla której drgania 
+		przyjmują wartość największą. Do obliczeń przyjmujemy $f=1$, a reszta wartości według wskazań prowadzącego.
+		
+		\section{Wyznaczenie wartości: $s$, $\triangle s$, $w_{0}$, $b$, według wskazań prowadzącego}
+		\begin{gather*}
+		s = \frac{1}{N}\sum_{i=1}^{N} nralbumu_{i}\\
+		s = \dfrac{1}{5} \cdot 679339 = 135867,8\\
+		\triangle s = \sqrt{\frac{1}{N}\sum_{i=1}^{N} (nralbumu_{i} -s)^2}\\
+		\triangle s = \sqrt{\frac{1}{5} \cdot 15582132,8} = 1765,340352\\
+		\omega_{0} = \triangle s + 1\\
+		\omega_{0} = 1766,340352\\
+		b = \frac{1}{4}\omega_{0}\\
+		b= 441,5850881\\
+		\end{gather*}
+		
+		\section{Przeprowadzenie eksperymentu numerycznego}
+		
+		
+		\section{Przedstawienie przykładowych rozwiązań numerycznych $x(t)$ przy warunku początkowym $ x(0) = 0  $ oraz $  v(0)= 0 $ w przedziale czasu $ 0 \leq t \leq n\frac{2\pi}{\omega_{0}}$, $ n = JANPAWEŁ $ dla przypadków:}
+		\subsection{$\omega = \sqrt{\omega_{0}^2 - \frac{1}{2}b^2}$}
+		\subsection{$\omega = \frac{3}{4}\sqrt{\omega_{0}^2 - \frac{1}{2}b^2}$}
+		\subsection{$\omega = \frac{5}{4}\sqrt{\omega_{0}^2 - \frac{1}{2}b^2}$}
+
+	
+	
+	
+	\newpage
+
+\end{document}
+
+
