@@ -1,0 +1,9 @@
+\BOOKMARK [1][-]{section.1}{Wprowadzenie}{}% 1
+\BOOKMARK [1][-]{section.2}{Cel zadania}{}% 2
+\BOOKMARK [1][-]{section.3}{Generowanie wykres\363w przyk\233adowych rozwiazan numerycznych}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{Wyznaczenie wartosci: s, s, w0, b, f, n, t \(w naszym przypadku timelimit\), wed\233ug wskazan prowadzacego}{section.3}% 4
+\BOOKMARK [2][-]{subsection.3.2}{Przeprowadzenie rozwiazan numerycznych, oraz prezentacja ich wynik\363w dla podpunktu \040a\) \040= 02 - 12b2}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.3}{Przeprowadzenie rozwiazan numerycznych, oraz prezentacja ich wynik\363w dla podpunktu \040b\) \040= 3402 - 12b2}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.4}{Przeprowadzenie rozwiazan numerycznych, oraz prezentacja ich wynik\363w dla podpunktu \040c\) \040= 5402 - 12b2}{section.3}% 7
+\BOOKMARK [1][-]{section.4}{Generacja wykresu punktowego, oraz tabeli X0\(\), zaleznosci maksymalnej amplitudy drgan X0 od czestotliwosci \040przyjmujac wartosci k = 5402 - 12b2, gdzie k = 1,2,\@let@token ,19;}{}% 8
+\BOOKMARK [1][-]{section.5}{Obliczenie wartosci \040}{}% 9
